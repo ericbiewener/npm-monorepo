@@ -1,0 +1,24 @@
+{
+  "name": "@ericbiewener/types",
+  "version": "0.0.4-alpha.0",
+  "description": "Helpful TypeScript types.",
+  "main": "src/index.ts",
+  "repository": "https://github.com/ericbiewener/utlz",
+  "author": "Eric Biewener",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "src"
+  ],
+  "lint-staged": {
+    "**/*.{ts,tsx,js}": [
+      "prettier --write",
+      "eslint --fix"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

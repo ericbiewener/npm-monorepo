@@ -1,0 +1,74 @@
+{
+  "name": "@ericbiewener/log",
+  "version": "5.0.8-alpha.0",
+  "description": "Better logging for a better world.",
+  "main": "dist/index.ts",
+  "module": "src/index.ts",
+  "repository": "https://github.com/ericbiewener/npm-monorepo/log",
+  "author": "Eric Biewener <ebiewener@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist/src"
+  ],
+  "types": "dist/src/types.d.ts",
+  "keywords": [
+    "color",
+    "colour",
+    "colors",
+    "terminal",
+    "console",
+    "cli",
+    "string",
+    "str",
+    "ansi",
+    "style",
+    "styles",
+    "tty",
+    "formatting",
+    "rgb",
+    "256",
+    "shell",
+    "xterm",
+    "log",
+    "logging",
+    "command-line",
+    "text"
+  ],
+  "scripts": {
+    "prepublish": "yarn build",
+    "build": "rm -rf dist && tsc",
+    "prettier": "prettier --write \"**/*.{ts,tsx,js,json,yml}\"",
+    "eslint": "eslint --fix --ext .ts,.tsx ./src",
+    "test:unique": "ts-node test/index.ts"
+  },
+  "dependencies": {
+    "chalk": "3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "13.1.6",
+    "as-table": "1.0.55",
+    "eslint": "6.8.0",
+    "eslint-config-ericbiewener-typescript": "5.10.0",
+    "husky": "4.0.7",
+    "lint-staged": "9.5.0",
+    "prettier": "1.19.1",
+    "ts-node": "8.6.1",
+    "typescript": "3.7.4"
+  },
+  "lint-staged": {
+    "**/*.{json,yml}": [
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.{ts,tsx,gql}": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}

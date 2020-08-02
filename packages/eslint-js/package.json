@@ -1,0 +1,29 @@
+{
+  "name": "@ericbiewener/eslint-config",
+  "private": false,
+  "version": "1.0.4-alpha.0",
+  "description": "Personal ESLint config",
+  "main": "index.js",
+  "repository": "https://github.com/ericbiewener/npm-monorepo/eslint-js",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Eric Biewener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericbiewener/eslint/issues"
+  },
+  "homepage": "https://github.com/ericbiewener/eslint#readme",
+  "peerDependencies": {
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*"
+  },
+  "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
+}
