@@ -1,6 +1,6 @@
 const path = require('path')
 
-const globTs = (basePath) => path.join(basePath, '**/*.{ts,tsx}')
+const globTs = basePath => path.join(basePath, '**/*.{ts,tsx}')
 
 module.exports = {
   extends: '@ericbiewener/eslint-config',
@@ -13,6 +13,12 @@ module.exports = {
     {
       files: [globTs('packages'), globTs('scripts')],
       extends: '@ericbiewener/eslint-config-typescript',
+    },
+    {
+      files: ['**/*.test.{ts,tsx}'],
+      env: {
+        jest: true,
+      },
     },
   ],
 }
