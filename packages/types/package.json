@@ -2,11 +2,11 @@
   "name": "@ericbiewener/types",
   "version": "0.0.5-alpha.0",
   "description": "Helpful TypeScript types.",
+  "private": false,
   "main": "src/index.ts",
   "repository": "https://github.com/ericbiewener/utlz",
   "author": "Eric Biewener",
   "license": "MIT",
-  "private": false,
   "files": [
     "src"
   ],
@@ -20,5 +20,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "gitHead": "fcce76cabb5381f94fb07bec3822dc02a33cd0e4"
 }

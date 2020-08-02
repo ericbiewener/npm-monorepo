@@ -2,6 +2,7 @@
   "name": "@ericbiewener/eslint-config-typescript",
   "version": "1.0.5-alpha.0",
   "description": "Personal ESLint config for Typescript projects",
+  "private": false,
   "main": "index.js",
   "repository": "https://github.com/ericbiewener/npm-monorepo/eslint-ts",
   "keywords": [
@@ -33,5 +34,5 @@
     "eslint-plugin-react-hooks": "*",
     "typescript": "*"
   },
-  "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
+  "gitHead": "fcce76cabb5381f94fb07bec3822dc02a33cd0e4"
 }

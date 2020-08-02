@@ -1,8 +1,8 @@
 {
   "name": "@ericbiewener/eslint-config",
-  "private": false,
   "version": "1.0.5-alpha.0",
   "description": "Personal ESLint config",
+  "private": false,
   "main": "index.js",
   "repository": "https://github.com/ericbiewener/npm-monorepo/eslint-js",
   "keywords": [
@@ -25,5 +25,5 @@
     "eslint-plugin-react": "*",
     "eslint-plugin-react-hooks": "*"
   },
-  "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
+  "gitHead": "fcce76cabb5381f94fb07bec3822dc02a33cd0e4"
 }

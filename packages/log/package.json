@@ -2,6 +2,7 @@
   "name": "@ericbiewener/log",
   "version": "5.0.9-alpha.0",
   "description": "Better logging for a better world.",
+  "private": false,
   "main": "dist/index.ts",
   "module": "src/index.ts",
   "repository": "https://github.com/ericbiewener/npm-monorepo/log",
@@ -70,5 +71,6 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "gitHead": "fcce76cabb5381f94fb07bec3822dc02a33cd0e4"
 }
