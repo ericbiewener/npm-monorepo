@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/utils",
-  "version": "3.3.5-alpha.0",
+  "version": "3.3.6-alpha.0",
   "description": "Some very self-centered utilities.",
   "private": false,
   "main": "dist/index.js",
