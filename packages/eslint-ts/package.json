@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/ericbiewener/eslint#readme",
   "dependencies": {
-    "base": "*",
-    "eslint-config-ericbiewener": "5.13.1"
+    "@ericbiewener/eslint-config": "1.0.7-alpha.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "*",

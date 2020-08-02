@@ -65,6 +65,8 @@
     "postcss-loader": "3.0.0",
     "postcss-preset-env": "6.7.0",
     "prettier-eslint-cli": "5.0.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-hot-loader": "4.12.21",
     "style-loader": "1.2.1",
     "ts-node": "8.10.2",
