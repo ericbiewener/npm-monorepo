@@ -2,7 +2,9 @@
   "name": "@ericbiewener/utils",
   "version": "3.3.6-alpha.0",
   "description": "Some very self-centered utilities.",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "https://github.com/ericbiewener/utlz",
@@ -58,5 +60,5 @@
     "execa": "4.0.3",
     "fuzzy": "0.1.3"
   },
-  "gitHead": "fcce76cabb5381f94fb07bec3822dc02a33cd0e4"
+  "gitHead": "470e6ea46a7110eaab0514ea98d5e26fd0c008dd"
 }
