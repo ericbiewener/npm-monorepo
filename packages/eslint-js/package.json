@@ -1,7 +1,7 @@
 {
   "name": "@ericbiewener/eslint-config",
   "private": false,
-  "version": "1.0.4-alpha.0",
+  "version": "1.0.5-alpha.0",
   "description": "Personal ESLint config",
   "main": "index.js",
   "repository": "https://github.com/ericbiewener/npm-monorepo/eslint-js",

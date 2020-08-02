@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/log",
-  "version": "5.0.8-alpha.0",
+  "version": "5.0.9-alpha.0",
   "description": "Better logging for a better world.",
   "main": "dist/index.ts",
   "module": "src/index.ts",
