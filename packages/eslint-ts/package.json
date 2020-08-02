@@ -1,0 +1,40 @@
+{
+  "name": "@ericbiewener/eslint-config-typescript",
+  "version": "0.0.1",
+  "description": "Personal ESLint config for Typescript projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericbiewener/eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "typescript",
+    "tslint"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Eric Biewener",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericbiewener/eslint/issues"
+  },
+  "homepage": "https://github.com/ericbiewener/eslint#readme",
+  "dependencies": {
+    "base": "*",
+    "eslint-config-ericbiewener": "5.13.1"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "*",
+    "@typescript-eslint/parser": "*",
+    "babel-eslint": "11.*-beta.*",
+    "eslint": "*",
+    "eslint-config-prettier": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*",
+    "typescript": "*"
+  },
+  "gitHead": "a5d460b39bf0ebf0c812ebc6f8c114176c35b541"
+}
