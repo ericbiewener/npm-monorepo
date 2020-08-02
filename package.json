@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "scripts": {
+    "l": "lerna",
     "bootstrap": "lerna bootstrap --use-workspaces"
   },
   "devDependencies": {
@@ -25,8 +26,6 @@
     "cli": "1.0.1",
     "dotenv-webpack": "2.0.0",
     "eslint": "7.6.0",
-    "eslint-config-ericbiewener": "5.13.1",
-    "eslint-config-ericbiewener-typescript": "5.14.1",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-react": "7.20.5",
     "eslint-plugin-react-hooks": "4.0.8",
@@ -38,6 +37,7 @@
     "postcss-loader": "3.0.0",
     "postcss-preset-env": "6.7.0",
     "prettier-eslint-cli": "5.0.0",
+    "react-hot-loader": "4.12.21",
     "style-loader": "1.2.1",
     "ts-node": "8.10.2",
     "typescript": "3.9.7",

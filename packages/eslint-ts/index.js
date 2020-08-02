@@ -10,6 +10,7 @@ module.exports = {
     project: './tsconfig.json',
   },
   rules: {
+    'no-undef': 0, // TS reports this itself
     'interface-over-type-literal': 0,
     'require-array-sort-compare': 0,
     '@typescript-eslint/no-explicit-any': 0,
