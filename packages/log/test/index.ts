@@ -1,4 +1,5 @@
 /* eslint-disable no-unused-expressions */
+import asTable from 'as-table'
 import { log } from '../src'
 
 log.red('red')

@@ -11,7 +11,8 @@
   "author": "Eric Biewener <ebiewener@gmail.com>",
   "license": "MIT",
   "files": [
-    "dist/src"
+    "dist",
+    "src"
   ],
   "types": "dist/src/types.d.ts",
   "keywords": [
