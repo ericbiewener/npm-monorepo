@@ -9,7 +9,9 @@
     "prettier": "prettier --write \"!(packages)/*.{ts,tsx,js,json,yml}\"",
     "eslint": "eslint --fix --ext .ts,.tsx,.js ./scripts",
     "c": "node ./compiled/scripts/cdPackage.js",
-    "compile": "rm -rf compiled && tsc --project tsconfig.build.json"
+    "compile": "rm -rf compiled && tsc --project tsconfig.build.json",
+    "tsc": "tsc",
+    "tscw": "yarn tsc --watch"
   },
   "lint-staged": {
     "**/*.{json,yml}": [
@@ -43,6 +45,7 @@
     "@types/node": "14.0.27",
     "@types/react": "16.9.44",
     "@types/react-dom": "16.9.8",
+    "@types/yargs": "15.0.5",
     "@typescript-eslint/eslint-plugin": "3.7.1",
     "@typescript-eslint/parser": "3.7.1",
     "babel-eslint": "11.0.0-beta.2",

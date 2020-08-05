@@ -4,9 +4,16 @@
   "extends": "./tsconfig.build.json",
   "compilerOptions": {
     "noEmit": true,
+    "rootDir": ".",
+    "paths": {
+      "@ericbiewener/*": [
+        "packages/*"
+      ]
+    }
   },
   "include": [
     "scripts",
-    "packages"
-  ]
+    "packages",
+    "types"
+  ],
 }
