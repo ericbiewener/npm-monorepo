@@ -5,15 +5,11 @@
     "packages/*"
   ],
   "scripts": {
-    "l": "lerna",
-    "bootstrap": "lerna bootstrap --use-workspaces",
-    "prettier": "prettier --write \"**/*.{ts,tsx,js,json,yml}\"",
+    "lerna": "lerna",
+    "prettier": "prettier --write \"!(packages)/*.{ts,tsx,js,json,yml}\"",
     "eslint": "eslint --fix --ext .ts,.tsx,.js ./scripts",
     "c": "node ./compiled/scripts/cdPackage.js",
-    "compile": "rm -rf compiled && tsc --project tsconfig.build.json",
-    "a": "yarn l add --exact",
-    "ad": "yarn a --dev",
-    "rm:nodeModules": "rm -rf packages/**/node_modules"
+    "compile": "rm -rf compiled && tsc --project tsconfig.build.json"
   },
   "lint-staged": {
     "**/*.{json,yml}": [

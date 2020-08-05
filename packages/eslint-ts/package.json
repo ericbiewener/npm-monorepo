@@ -25,7 +25,7 @@
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
-    "babel-eslint": "11.*-beta.*",
+    "babel-eslint": "*",
     "eslint": "*",
     "eslint-config-prettier": "*",
     "eslint-plugin-react": "*",
