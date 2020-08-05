@@ -1,21 +1,12 @@
+// This file is used just for typechecking, not build configuration
+// https://stackoverflow.com/questions/58542301/issues-building-a-typescript-monorepo-project
 {
+  "extends": "./tsconfig.build.json",
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "es6",
-    "lib": ["esnext"],
-    "moduleResolution": "node",
-    "outDir": "compiled",
-    "rootDir": ".",
-    "baseUrl": ".",
-    "strict": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "noImplicitAny": true,
-    "sourceMap": true,
-    "declaration": true,
-    "paths": {
-      "*": ["node_modules/*", "types/*"]
-    }
+    "noEmit": true,
   },
-  "include": ["scripts", "packages"]
+  "include": [
+    "scripts",
+    "packages"
+  ]
 }

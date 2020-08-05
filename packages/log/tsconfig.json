@@ -1,18 +1,6 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "esnext",
-    "lib": ["esnext"],
-    "moduleResolution": "node",
-    "outDir": "dist",
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "noImplicitThis": true,
-    "noImplicitAny": true,
-    "sourceMap": true,
-    "declaration": true,
+    "composite": true
   },
-  "include": ["src/**/*", "test/**/*"]
 }
