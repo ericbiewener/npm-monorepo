@@ -6,18 +6,16 @@
     "target": "es6",
     "moduleResolution": "node",
     "outDir": "compiled",
-    "baseUrl": ".",
+    "rootDir": ".",
     "strict": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "sourceMap": true,
     "declaration": true,
-    "paths": {
-      "*": [
-        "node_modules/*",
-        "types/*"
-      ]
-    }
-  }
+  },
+  "include": [
+    "scripts",
+    "types",
+  ],
 }

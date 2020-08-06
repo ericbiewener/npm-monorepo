@@ -5,15 +5,11 @@
   "compilerOptions": {
     "noEmit": true,
     "rootDir": ".",
+    "baseUrl": ".",
     "paths": {
       "@ericbiewener/*": [
         "packages/*"
       ]
     }
-  },
-  "include": [
-    "scripts",
-    "packages",
-    "types"
-  ],
+  }
 }

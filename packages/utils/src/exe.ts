@@ -7,8 +7,10 @@
 import execa from 'execa'
 import { ErrorWithData } from './ErrorWithData'
 
-export const exe = async (cmd: string, args: string[], options?: execa.SyncOptions<null>) => {
-  const child = execa(cmd, args.filter(Boolean), {
+export type ExeArg = string | null | undefined | false
+
+export const exe = async (cmd: string, args: ExeArg[], options?: execa.SyncOptions<null>) => {
+  const child = execa(cmd, args.filter(Boolean) as string[], {
     ...options,
     stdio: 'pipe',
   })

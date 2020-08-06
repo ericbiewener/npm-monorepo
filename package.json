@@ -9,9 +9,12 @@
     "prettier": "prettier --write \"!(packages)/*.{ts,tsx,js,json,yml}\"",
     "eslint": "eslint --fix --ext .ts,.tsx,.js ./scripts",
     "c": "node ./compiled/scripts/cdPackage.js",
-    "compile": "rm -rf compiled && tsc --project tsconfig.build.json",
+    "compile": "rm -rf compiled && tsc --watch --project tsconfig.build.json",
     "tsc": "tsc",
-    "tscw": "yarn tsc --watch"
+    "tscw": "yarn tsc --watch",
+    "a": "node compiled/scripts/workspaceAddOrRemove.js",
+    "ad": "yarn a --dev",
+    "r": "node compiled/scripts/workspaceAddOrRemove.js --remove"
   },
   "lint-staged": {
     "**/*.{json,yml}": [
@@ -37,7 +40,6 @@
     "@ericbiewener/inquirer-autocomplete-prompt": "1.0.3",
     "@ericbiewener/log": "latest",
     "@ericbiewener/types": "latest",
-    "@ericbiewener/utils": "latest",
     "@types/classnames": "2.2.10",
     "@types/html-webpack-plugin": "3.2.3",
     "@types/inquirer": "7.3.0",
@@ -77,5 +79,8 @@
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "3.11.0",
     "yargs": "15.4.1"
+  },
+  "dependencies": {
+    "@ericbiewener/utils": "workspace:packages/utils"
   }
 }

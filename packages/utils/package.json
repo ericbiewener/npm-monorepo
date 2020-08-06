@@ -11,7 +11,8 @@
   "author": "Eric Biewener",
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "prepublish": "yarn build",
