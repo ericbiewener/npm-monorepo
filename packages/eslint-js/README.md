@@ -6,4 +6,3 @@
   Probably more permissive than you'd want to use on a team.
 </p>
 <br />
-<br />

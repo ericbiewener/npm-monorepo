@@ -5,4 +5,3 @@
   Reducing TypeScript Boilerplate. 
 </p>
 <br />
-<br />
