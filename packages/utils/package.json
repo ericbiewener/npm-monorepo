@@ -30,7 +30,7 @@
     "fuzzy": "0.1.3",
     "react": "16.13.1"
   },
-  "gitHead": "2ac53973aaf414de6dad6f86c345d56928977285",
+  "gitHead": "d8a490d4a623f0fc8dcf5bd53b5fdbe82bfe3f72",
   "devDependencies": {
     "@types/jest": "26.0.8",
     "eslint": "7.6.0",

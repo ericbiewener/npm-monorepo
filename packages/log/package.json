@@ -41,7 +41,9 @@
     "prepublish": "yarn build",
     "build": "rm -rf dist && tsc --project tsconfig.build.json",
     "lint": "eslint --fix --ext .ts,.tsx,.js src",
-    "test:unique": "ts-node test/index.ts"
+    "test:unique": "ts-node test/index.ts",
+    "tsc": "tsc",
+    "tscw": "yarn tsc --watch"
   },
   "dependencies": {
     "chalk": "3.0.0"
@@ -52,5 +54,5 @@
     "ts-node": "8.10.2",
     "typescript": "3.9.7"
   },
-  "gitHead": "2ac53973aaf414de6dad6f86c345d56928977285"
+  "gitHead": "d8a490d4a623f0fc8dcf5bd53b5fdbe82bfe3f72"
 }
