@@ -7,7 +7,6 @@
   that allows you to log color to your terminal with a single function call.
 </p>
 <br />
-<br />
 
 ## Chalk Wrapper Functionality
 
