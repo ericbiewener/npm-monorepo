@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-expressions */
+/* eslint-disable @typescript-eslint/no-unused-expressions */
 import asTable from 'as-table'
 import { log } from '../src'
 
@@ -6,6 +6,10 @@ log.red('red')
 log.yellow('yellow1', 'yellow2')
 log.green('green')()
 log.white('line break')
+
+log.error('error')
+log.warn('warn')
+
 log('called as fn')
 
 const a = 'a'

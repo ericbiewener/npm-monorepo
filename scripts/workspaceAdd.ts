@@ -1,5 +1,5 @@
-import yargs from 'yargs'
 import { exe, ExeArg } from '@ericbiewener/utils/dist/exe'
+import { workspaceYargs } from './utils'
 
 function assert(value: any, message: string): asserts value {
   if (value) return
@@ -9,23 +9,9 @@ function assert(value: any, message: string): asserts value {
   process.exit(1)
 }
 
-const { argv } = yargs.command('* [workspace] [pkg]', '', builder =>
-  builder
-    .alias('h', 'help')
-    .version(false)
-    .positional('workspace', {
-      describe: 'Workspace',
-      type: 'string',
-    })
-    .positional('pkg', {
-      describe: 'npm package',
-      type: 'string',
-    })
-    .options({
-      dev: { type: 'boolean' },
-      remove: { type: 'boolean' },
-    })
-)
+const { argv } = workspaceYargs.options({
+  dev: { type: 'boolean' },
+})
 
 assert(argv.workspace, 'Must provide a workspace name.')
 assert(argv.pkg, 'Must provide a package name.')

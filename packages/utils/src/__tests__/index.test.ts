@@ -1,5 +1,6 @@
 import path from 'path'
-import { defaultSpawnSync, isFile, sleep } from '..'
+import { isFile } from '../isFile'
+import { sleep } from '../sleep'
 
 test('sleep', async () => {
   expect(await sleep()).toBe(undefined)
@@ -9,9 +10,4 @@ test('sleep', async () => {
 test('isFile', () => {
   expect(isFile('blah')).toBe(false)
   expect(isFile(path.join(__dirname, 'index.test.ts'))).toBe(true)
-})
-
-test('defaultSpawnSync', () => {
-  expect(defaultSpawnSync('echo', ['hello'])).toBe('hello\n')
-  expect(() => defaultSpawnSync('fakeCmd', ['hello'])).toThrow()
 })

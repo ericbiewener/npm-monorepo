@@ -7,17 +7,18 @@
   "scripts": {
     "lerna": "lerna",
     "prettier": "prettier --write \"!(packages)/*.{ts,tsx,js,json,yml}\"",
-    "eslint": "eslint --fix --ext .ts,.tsx,.js ./scripts",
+    "lint": "eslint --fix --ext .ts,.tsx,.js scripts",
     "c": "node ./compiled/scripts/cdPackage.js",
     "compile": "rm -rf compiled && tsc --watch --project tsconfig.build.json",
     "tsc": "tsc",
     "tscw": "yarn tsc --watch",
-    "a": "node compiled/scripts/workspaceAddOrRemove.js",
+    "a": "node compiled/scripts/workspaceAdd.js",
     "ad": "yarn a --dev",
-    "r": "node compiled/scripts/workspaceAddOrRemove.js --remove"
+    "r": "node compiled/scripts/workspaceRemove.js",
+    "nm:reinstall": "rm -rf node_modules packages/**/node_modules && yarn install"
   },
   "lint-staged": {
-    "**/*.{json,yml}": [
+    "**/*.{json,yml,md,gql}": [
       "prettier --write"
     ],
     "**/*.{js,ts,tsx}": [
@@ -38,7 +39,6 @@
     "@babel/preset-typescript": "7.10.4",
     "@ericbiewener/eslint-config-typescript": "latest",
     "@ericbiewener/inquirer-autocomplete-prompt": "1.0.3",
-    "@ericbiewener/log": "latest",
     "@ericbiewener/types": "latest",
     "@types/classnames": "2.2.10",
     "@types/html-webpack-plugin": "3.2.3",
@@ -81,6 +81,7 @@
     "yargs": "15.4.1"
   },
   "dependencies": {
+    "@ericbiewener/log": "workspace:packages/log",
     "@ericbiewener/utils": "workspace:packages/utils"
   }
 }

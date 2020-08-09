@@ -7,7 +7,8 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: './tsconfig.json',
+    // packages glob supports monorepo
+    project: ['./tsconfig.json', './packages/**/tsconfig.json'],
   },
   rules: {
     'no-undef': 0, // TS reports this itself

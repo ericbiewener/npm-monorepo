@@ -12,10 +12,7 @@
     "allowSyntheticDefaultImports": true,
     "noImplicitAny": true,
     "sourceMap": true,
-    "declaration": true,
+    "declaration": true
   },
-  "include": [
-    "scripts",
-    "types",
-  ],
+  "include": ["scripts"]
 }

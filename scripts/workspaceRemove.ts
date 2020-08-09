@@ -1,20 +1,8 @@
-import yargs from 'yargs'
 import { exe, ExeArg } from '@ericbiewener/utils/dist/exe'
-import { buildWorkspaceYargs } from './utils'
+import { assert } from '@ericbiewener/utils/dist/assert/process'
+import { workspaceYargs } from './utils'
 
-function assert(value: any, message: string): asserts value {
-  if (value) return
-  console.error()
-  console.error(message)
-  console.error()
-  process.exit(1)
-}
-
-const { argv } = buildWorkspaceYargs(builder =>
-  builder.options({
-    dev: { type: 'boolean' },
-  })
-)
+const { argv } = workspaceYargs
 
 assert(argv.workspace, 'Must provide a workspace name.')
 assert(argv.pkg, 'Must provide a package name.')

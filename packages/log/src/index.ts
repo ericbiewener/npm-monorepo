@@ -21,6 +21,16 @@ const handler = {
       return log
     }
 
+    if (prop === 'error') {
+      for (const arg of args) console.error(chalk.red(arg))
+      return log
+    }
+
+    if (prop === 'warn') {
+      for (const arg of args) console.error(chalk.yellow(arg))
+      return log
+    }
+
     // @ts-ignore
     for (const arg of args) console.log(chalk[prop](arg))
     return log

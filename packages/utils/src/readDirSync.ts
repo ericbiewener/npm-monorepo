@@ -1,12 +1,12 @@
 import fs from 'fs'
 import path from 'path'
-import { isFile } from './'
+import { isFile } from './isFile'
 
 export type ReadDirSyncResult = { name: string; itemPath: string; isFile: boolean }
 
 export const readDirSync = (
   dir: string,
-  type: 'FILE' | 'DIR' | 'ALL' = 'ALL'
+  type: 'FILE' | 'DIR' | 'ALL' = 'ALL',
 ): ReadDirSyncResult[] => {
   const items = []
 

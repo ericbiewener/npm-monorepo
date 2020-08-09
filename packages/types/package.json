@@ -12,16 +12,5 @@
   "files": [
     "src"
   ],
-  "lint-staged": {
-    "**/*.{ts,tsx,js}": [
-      "prettier --write",
-      "eslint --fix"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "gitHead": "beb3a66148a26775883feeed2275e18abc883837"
 }
