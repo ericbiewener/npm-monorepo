@@ -1,6 +1,7 @@
 {
   "name": "npm-monorepo",
   "private": true,
+  "repository": "https://github.com/ericbiewener/npm-monorepo",
   "workspaces": [
     "packages/*"
   ],
@@ -15,7 +16,8 @@
     "a": "node compiled/scripts/workspaceAdd.js",
     "ad": "yarn a --dev",
     "r": "node compiled/scripts/workspaceRemove.js",
-    "reinstall": "lerna clean && rm -rf node_modules && yarn install"
+    "reinstall": "lerna clean && rm -rf node_modules && yarn install",
+    "p": "lerna publish --no-push && git push --tags"
   },
   "lint-staged": {
     "**/*.{json,yml,md,gql}": [

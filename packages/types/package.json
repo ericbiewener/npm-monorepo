@@ -6,11 +6,11 @@
     "access": "public"
   },
   "main": "src/index.ts",
-  "repository": "https://github.com/ericbiewener/utlz",
+  "repository": "https://github.com/ericbiewener/npm-monorepo/packages/types",
   "author": "Eric Biewener",
   "license": "MIT",
   "files": [
     "src"
   ],
-  "gitHead": "d8a490d4a623f0fc8dcf5bd53b5fdbe82bfe3f72"
+  "gitHead": "8893fd6ffd4ccbe2a4a3f5642fd8121cb0f21148"
 }

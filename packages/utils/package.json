@@ -7,7 +7,7 @@
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/ericbiewener/utlz",
+  "repository": "https://github.com/ericbiewener/npm-monorepo/packages/utils",
   "author": "Eric Biewener",
   "license": "MIT",
   "files": [
@@ -30,7 +30,7 @@
     "fuzzy": "0.1.3",
     "react": "16.13.1"
   },
-  "gitHead": "d8a490d4a623f0fc8dcf5bd53b5fdbe82bfe3f72",
+  "gitHead": "8893fd6ffd4ccbe2a4a3f5642fd8121cb0f21148",
   "devDependencies": {
     "@types/jest": "26.0.8",
     "eslint": "7.6.0",
