@@ -15,7 +15,7 @@
     "a": "node compiled/scripts/workspaceAdd.js",
     "ad": "yarn a --dev",
     "r": "node compiled/scripts/workspaceRemove.js",
-    "nm:reinstall": "rm -rf node_modules packages/**/node_modules && yarn install"
+    "reinstall": "lerna clean && rm -rf node_modules && yarn install"
   },
   "lint-staged": {
     "**/*.{json,yml,md,gql}": [
@@ -37,9 +37,11 @@
     "@babel/preset-env": "7.11.0",
     "@babel/preset-react": "7.10.4",
     "@babel/preset-typescript": "7.10.4",
-    "@ericbiewener/eslint-config-typescript": "latest",
+    "@ericbiewener/eslint-config-typescript": "*",
     "@ericbiewener/inquirer-autocomplete-prompt": "1.0.3",
-    "@ericbiewener/types": "latest",
+    "@ericbiewener/log": "*",
+    "@ericbiewener/types": "*",
+    "@ericbiewener/utils": "*",
     "@types/classnames": "2.2.10",
     "@types/html-webpack-plugin": "3.2.3",
     "@types/inquirer": "7.3.0",
@@ -79,9 +81,5 @@
     "webpack-cli": "3.3.12",
     "webpack-dev-server": "3.11.0",
     "yargs": "15.4.1"
-  },
-  "dependencies": {
-    "@ericbiewener/log": "workspace:packages/log",
-    "@ericbiewener/utils": "workspace:packages/utils"
   }
 }
