@@ -2,8 +2,10 @@
 <h1 align="center">Log</h1>
 
 <p align="center">
-  Mostly (but not only!) a simple wrapper for the ubiquitous [Chalk package](https://github.com/chalk/chalk) that allows you to log color to your terminal with a single function call.
+  Mostly (but not only!) a simple wrapper for the ubiquitous <a href="https://github.com/chalk/chalk">Chalk package</a> that allows you to log color to your terminal with a single function call.
 </p>
+<br />
+<br />
 
 ## Chalk Wrapper Functionality
 
