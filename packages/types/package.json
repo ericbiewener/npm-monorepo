@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helpful TypeScript types.",
   "publishConfig": {
     "access": "public"
