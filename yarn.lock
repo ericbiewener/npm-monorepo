@@ -1005,13 +1005,6 @@
     figures "^2.0.0"
     run-async "^2.3.0"
 
-"@ericbiewener/log@latest":
-  version "5.0.10-alpha.0"
-  resolved "https://registry.yarnpkg.com/@ericbiewener/log/-/log-5.0.10-alpha.0.tgz#26e0a5e2e7512af965328a796e6a404eae69a694"
-  integrity sha512-BA/TlA7HO+ny+skvZrFGkKj/upv1nURMYg8btZVOk1JcWhlgNpdOHwlH3+Rw5EVVnTuHTvpOb+HYvcJCm+CrWA==
-  dependencies:
-    chalk "3.0.0"
-
 "@evocateur/libnpmaccess@^3.1.2":
   version "3.1.2"
   resolved "https://registry.yarnpkg.com/@evocateur/libnpmaccess/-/libnpmaccess-3.1.2.tgz#ecf7f6ce6b004e9f942b098d92200be4a4b1c845"
