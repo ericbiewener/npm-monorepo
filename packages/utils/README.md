@@ -1,3 +1,8 @@
-# Utlz
+<p align="center"><img src="./logo.png" width="128" height="112" align="center" /></p>
+<h1 align="center">@ericbiewener/utils</h1>
 
-Some very self-centered utilities.
+<p align="center">
+  Utilities I commonly use in personal projects.
+</p>
+<br />
+<br />

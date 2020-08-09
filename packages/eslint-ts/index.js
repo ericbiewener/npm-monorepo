@@ -33,9 +33,13 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.js'],
+      files: ['**/*.test.{ts,tsx}', '**/testUtils.{ts,tsx}'],
+      env: {
+        jest: true,
+      },
       rules: {
-        '@typescript-eslint/no-var-requires': 0,
+        '@typescript-eslint/no-explicit-any': 0,
+        '@typescript-eslint/no-object-literal-type-assertion': 0,
       },
     },
   ],

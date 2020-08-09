@@ -1,8 +1,10 @@
 <p align="center"><img src="./logo.png" width="128" height="112" align="center" /></p>
-<h1 align="center">Log</h1>
+<h1 align="center">@ericbiewener/log</h1>
 
 <p align="center">
-  Mostly (but not only!) a simple wrapper for the ubiquitous <a href="https://github.com/chalk/chalk">Chalk package</a> that allows you to log color to your terminal with a single function call.
+  Mostly (but not only!) a simple wrapper for the ubiquitous <a href="https://github.com/chalk/chalk">Chalk package</a>
+  <br />
+  that allows you to log color to your terminal with a single function call.
 </p>
 <br />
 <br />
