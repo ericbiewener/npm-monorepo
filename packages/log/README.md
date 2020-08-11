@@ -1,4 +1,4 @@
-<p align="center"><img src="./logo.png" width="128" height="112" align="center" /></p>
+<p align="center"><img src="./logo.png" width="160" height="160" align="center" /></p>
 <h1 align="center">@ericbiewener/log</h1>
 
 <p align="center">
