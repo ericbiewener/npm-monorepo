@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/log",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Better logging for a better world.",
   "publishConfig": {
     "access": "public"
@@ -54,5 +54,5 @@
     "ts-node": "8.10.2",
     "typescript": "3.9.7"
   },
-  "gitHead": "8893fd6ffd4ccbe2a4a3f5642fd8121cb0f21148"
+  "gitHead": "e48f22bafc2f257dbc4fa13c50fdc931252dbc52"
 }

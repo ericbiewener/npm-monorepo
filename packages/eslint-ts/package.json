@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/eslint-config-typescript",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Personal ESLint config for Typescript projects",
   "publishConfig": {
     "access": "public"
@@ -32,5 +32,5 @@
     "eslint-plugin-react-hooks": "*",
     "typescript": "*"
   },
-  "gitHead": "8893fd6ffd4ccbe2a4a3f5642fd8121cb0f21148"
+  "gitHead": "e48f22bafc2f257dbc4fa13c50fdc931252dbc52"
 }
