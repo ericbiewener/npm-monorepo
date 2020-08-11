@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/log",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Better logging for a better world.",
   "publishConfig": {
     "access": "public"

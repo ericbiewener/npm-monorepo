@@ -25,7 +25,7 @@
     "tscw": "yarn tsc --watch"
   },
   "dependencies": {
-    "@ericbiewener/log": "^1.0.2",
+    "@ericbiewener/log": "^1.0.3",
     "classnames": "2.2.6",
     "date-fns": "2.15.0",
     "execa": "4.0.3",

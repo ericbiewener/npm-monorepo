@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/eslint-config-typescript",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Personal ESLint config for Typescript projects",
   "publishConfig": {
     "access": "public"
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/ericbiewener/eslint#readme",
   "dependencies": {
-    "@ericbiewener/eslint-config": "^1.0.2"
+    "@ericbiewener/eslint-config": "^1.0.3"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "*",
