@@ -1,7 +1,7 @@
 import React from 'react'
 import { SubmitHandler, useForm, UseFormMethods, UseFormOptions } from 'react-hook-form'
-import { Fn, Obj } from '../../../types'
-import { HtmlFormProps } from '../../types/misc'
+import { Fn, Obj } from '@ericbiewener/types'
+import { HtmlFormProps } from '../types'
 
 export type FormCtxType<V extends Obj> = UseFormMethods<V> & {
   submit?: Fn

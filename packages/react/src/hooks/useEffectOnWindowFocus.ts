@@ -1,4 +1,4 @@
-import { Fn } from '../../../types'
+import { Fn } from '@ericbiewener/types'
 import { useEffectOnMount } from './useEffectOnMount'
 
 export const useEffectOnWindowFocus = (onFocusListener: Fn, immediate = true) => {

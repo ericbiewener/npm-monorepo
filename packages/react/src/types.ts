@@ -1,5 +1,3 @@
-export type Comparator<V> = (a: V, b: V) => number
-
 export type HtmlDivProps = React.HTMLProps<HTMLDivElement>
 export type HtmlTableProps = React.HTMLProps<HTMLTableElement>
 export type HtmlTableSectionProps = React.HTMLProps<HTMLTableSectionElement>

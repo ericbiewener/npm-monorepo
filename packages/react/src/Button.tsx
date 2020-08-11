@@ -1,6 +1,6 @@
 import React from 'react'
-import { HtmlButtonProps } from '../types/misc'
-import { cxp } from '../utils'
+import { HtmlButtonProps } from './types'
+import { cxp } from './utils/cxp'
 
 type ButtonProps = HtmlButtonProps & {
   primary?: boolean

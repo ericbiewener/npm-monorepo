@@ -27,13 +27,16 @@
   "dependencies": {
     "@ericbiewener/log": "^1.0.2",
     "classnames": "2.2.6",
+    "date-fns": "2.15.0",
     "execa": "4.0.3",
     "fuzzy": "0.1.3",
-    "react": "16.13.1"
+    "react": "16.13.1",
+    "react-hook-form": "6.3.2"
   },
   "gitHead": "8893fd6ffd4ccbe2a4a3f5642fd8121cb0f21148",
   "devDependencies": {
     "@types/jest": "26.0.8",
+    "@types/react": "16.9.46",
     "eslint": "7.6.0",
     "typescript": "3.9.7"
   }

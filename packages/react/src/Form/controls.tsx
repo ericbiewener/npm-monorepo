@@ -1,6 +1,6 @@
 import React from 'react'
-import { HtmlInputProps, HtmlLabelProps } from '../../types/misc'
-import { cxp } from '../../utils'
+import { HtmlInputProps, HtmlLabelProps } from '../types'
+import { cxp } from '../utils/cxp'
 import { useFormCtx } from './Form'
 
 export const Input: React.FC<HtmlInputProps> = props => {

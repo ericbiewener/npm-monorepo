@@ -1,6 +1,6 @@
 import React from 'react'
-import { HtmlDivProps } from '../types/misc'
-import { cxp } from '../utils'
+import { HtmlDivProps } from './types'
+import { cxp } from './utils/cxp'
 
 export type CardProps = HtmlDivProps
 
