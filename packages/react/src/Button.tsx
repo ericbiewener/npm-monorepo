@@ -12,7 +12,7 @@ export const Button: React.FC<ButtonProps> = ({ disabled, primary, text, fab, ..
   <button
     disabled={disabled}
     style={fab ? { width: 40, height: 40 } : undefined}
-    {...cxp(props, 'p-2', {
+    {...cxp(props, {
       ['rounded p-2']: !fab,
       ['rounded-full']: fab,
       ['bg-blue-400 text-white']: primary,

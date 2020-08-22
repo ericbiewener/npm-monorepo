@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "prepublish": "yarn build",
-    "build": "rm -rf dist && tsc --project tsconfig.build.json",
+    "build": "rm -rf dist && tsc --project tsconfig.build.json && yarn tailwind:build",
     "lint": "eslint --fix --ext .ts,.tsx,.js src",
     "test": "jest",
     "test:watch": "yarn run test --watch",
