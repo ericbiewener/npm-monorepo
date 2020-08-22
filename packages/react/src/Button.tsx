@@ -11,9 +11,9 @@ export type ButtonProps = HtmlButtonProps & {
 export const Button: React.FC<ButtonProps> = ({ disabled, primary, text, fab, ...props }) => (
   <button
     disabled={disabled}
-    style={fab ? { width: 40 } : undefined}
+    style={fab ? { width: 40, height: 40 } : undefined}
     {...cxp(props, 'p-2', {
-      rounded: !fab,
+      ['rounded p-2']: !fab,
       ['rounded-full']: fab,
       ['bg-blue-400 text-white']: primary,
       ['bg-gray-200']: !primary && !text,

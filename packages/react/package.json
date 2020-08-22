@@ -23,7 +23,7 @@
     "tw": "yarn run test:watch",
     "tsc": "tsc",
     "tscw": "yarn tsc --watch",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "yarn tailwind:build && start-storybook -p 6006",
     "storybook:build": "build-storybook",
     "tailwind:build": "postcss src/assets/styles/main.css -o dist/assets/styles/main.css"
   },
