@@ -10,6 +10,7 @@ export const Input: React.FC<HtmlInputProps> = props => {
 
 type HtmlInputPropsNoType = Omit<HtmlInputProps, 'type'>
 
+// TODO: Consolidate Checkbox & Checkbox label and just use flex-direction to change left/right ordering?
 export const Checkbox: React.FC<HtmlInputPropsNoType> = props => (
   <Input type="checkbox" {...props} />
 )
