@@ -42,6 +42,6 @@ export const exe = async (cmd: string, args: ExeArg[], options?: execa.SyncOptio
     new Promise(res => child.stderr?.on('close', res)),
   ])
 
-  if (stderr) throw new ErrorWithData('stderr has data', { stdout, stderr })
+  if (stderr) throw new ErrorWithData('stderr has data ' + stderr, { stdout, stderr })
   return stdout
 }

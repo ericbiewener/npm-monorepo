@@ -68,8 +68,6 @@
     "jest": "26.2.2",
     "lerna": "3.22.1",
     "lint-staged": "10.2.11",
-    "postcss-loader": "3.0.0",
-    "postcss-preset-env": "6.7.0",
     "prettier-eslint-cli": "5.0.0",
     "style-loader": "1.2.1",
     "ts-node": "8.10.2",
