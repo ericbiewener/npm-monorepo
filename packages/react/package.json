@@ -24,20 +24,17 @@
     "tsc": "tsc",
     "tscw": "yarn tsc --watch"
   },
-  "dependencies": {
-    "@ericbiewener/log": "^1.0.5",
-    "classnames": "2.2.6",
-    "date-fns": "2.15.0",
-    "execa": "4.0.3",
-    "fuzzy": "0.1.3",
-    "react": "16.13.1",
-    "react-hook-form": "6.3.2"
+  "peerDependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.13.1",
+    "react-hook-form": "^6.3.2"
   },
   "gitHead": "e48f22bafc2f257dbc4fa13c50fdc931252dbc52",
   "devDependencies": {
     "@types/jest": "26.0.8",
     "@types/react": "16.9.46",
     "eslint": "7.6.0",
+    "react-hook-form": "6.4.1",
     "typescript": "3.9.7"
   }
 }
