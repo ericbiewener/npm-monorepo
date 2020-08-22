@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/react",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "React stuff.",
   "publishConfig": {
     "access": "public"
@@ -52,6 +52,5 @@
     "react-is": "^16.13.1",
     "tailwindcss": "1.7.3",
     "typescript": "3.9.7"
-  },
-  "dependencies": {}
+  }
 }
