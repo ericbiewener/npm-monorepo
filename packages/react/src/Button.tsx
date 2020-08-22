@@ -14,7 +14,7 @@ export const Button: React.FC<ButtonProps> = ({ disabled, primary, text, fab, ..
     style={fab ? { width: 40, height: 40 } : undefined}
     {...cxp(props, {
       ['rounded p-2']: !fab,
-      ['rounded-full']: fab,
+      ['rounded-full flex justify-center items-center']: fab,
       ['bg-blue-400 text-white']: primary,
       ['bg-gray-200']: !primary && !text,
       ['border border-gray-500 text-gray-600 hover:border-gray-700 hover:text-gray-800 active:bg-gray-100']: text,
