@@ -22,7 +22,9 @@
     "test:watch": "yarn run test --watch",
     "tw": "yarn run test:watch",
     "tsc": "tsc",
-    "tscw": "yarn tsc --watch"
+    "tscw": "yarn tsc --watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "peerDependencies": {
     "classnames": "^2.2.6",
@@ -31,10 +33,18 @@
   },
   "gitHead": "e48f22bafc2f257dbc4fa13c50fdc931252dbc52",
   "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@storybook/addon-actions": "^6.0.16",
+    "@storybook/addon-essentials": "^6.0.16",
+    "@storybook/addon-links": "^6.0.16",
+    "@storybook/react": "^6.0.16",
     "@types/jest": "26.0.8",
     "@types/react": "16.9.46",
+    "babel-loader": "^8.1.0",
     "eslint": "7.6.0",
     "react-hook-form": "6.4.1",
+    "react-is": "^16.13.1",
     "typescript": "3.9.7"
-  }
+  },
+  "dependencies": {}
 }
