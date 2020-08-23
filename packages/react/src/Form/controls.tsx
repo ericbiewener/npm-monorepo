@@ -1,5 +1,5 @@
 import React from 'react'
-import { HtmlInputProps, HtmlLabelProps } from '../types'
+import { HtmlInputProps, HtmlLabelProps, HtmlTextAreaProps } from '../types'
 import { cxp } from '../utils/cxp'
 import { useFormCtx } from './Form'
 
@@ -10,7 +10,6 @@ export const Input: React.FC<HtmlInputProps> = props => {
 
 type HtmlInputPropsNoType = Omit<HtmlInputProps, 'type'>
 
-// TODO: Consolidate Checkbox & Checkbox label and just use flex-direction to change left/right ordering?
 export const Checkbox: React.FC<HtmlInputPropsNoType> = props => (
   <Input type="checkbox" {...props} />
 )
@@ -18,3 +17,8 @@ export const Checkbox: React.FC<HtmlInputPropsNoType> = props => (
 export const CheckboxLabel: React.FC<HtmlLabelProps> = props => (
   <label {...cxp(props, 'uppercase text-sm flex items-center space-x-1')} />
 )
+
+export const TextArea: React.FC<HtmlTextAreaProps> = props => {
+  const { register } = useFormCtx()
+  return <textarea {...props} ref={register} />
+}

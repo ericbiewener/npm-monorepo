@@ -10,6 +10,7 @@ export type HtmlButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   onClick: OnButtonMouseEvent
 }
 export type HtmlInputProps = React.HTMLProps<HTMLInputElement> & { name: string }
+export type HtmlTextAreaProps = React.HTMLProps<HTMLTextAreaElement> & { name: string }
 export type HtmlFormProps = React.HTMLProps<HTMLFormElement>
 export type HtmlLabelProps = React.HTMLProps<HTMLLabelElement>
 
