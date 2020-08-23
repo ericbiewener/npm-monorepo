@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/react",
-  "version": "1.1.4",
+  "version": "1.2.0",
   "description": "React stuff.",
   "publishConfig": {
     "access": "public"
@@ -25,7 +25,7 @@
     "tscw": "yarn tsc --watch",
     "storybook": "yarn tailwind:build && start-storybook -p 6006",
     "storybook:build": "build-storybook",
-    "tailwind:build": "postcss src/assets/styles/main.css -o dist/assets/styles/main.css"
+    "tailwind:build": "postcss src/assets/styles/main.css -o .storybook/main.css"
   },
   "peerDependencies": {
     "classnames": "^2.2.6",
