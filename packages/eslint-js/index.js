@@ -6,7 +6,6 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
-    indent: [2, 2, { SwitchCase: 1 }],
     'linebreak-style': [2, 'unix'],
     quotes: [2, 'single', { avoidEscape: true }],
     semi: [2, 'never'],
