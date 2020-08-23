@@ -69,6 +69,7 @@
     "lerna": "3.22.1",
     "lint-staged": "10.2.11",
     "prettier-eslint-cli": "5.0.0",
+    "react-hot-loader": "4.12.21",
     "style-loader": "1.2.1",
     "ts-node": "8.10.2",
     "typescript": "3.9.7",

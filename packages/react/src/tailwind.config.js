@@ -35,8 +35,8 @@ module.exports = {
       xl: '2881px',
       // => @media (min-width: 1280px) { ... }
     },
-    future: {
-      removeDeprecatedGapUtilities: true,
-    },
+  },
+  future: {
+    removeDeprecatedGapUtilities: true,
   },
 }
