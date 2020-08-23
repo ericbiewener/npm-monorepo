@@ -17,6 +17,6 @@
   "author": "Eric Biewener",
   "license": "ISC",
   "dependencies": {
-    "@ericbiewener/eslint-config-typescript": "^1.0.5"
+    "@ericbiewener/eslint-config-typescript": "^2.0.0"
   }
 }
