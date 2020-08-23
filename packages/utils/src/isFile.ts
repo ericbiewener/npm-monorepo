@@ -1,6 +1,6 @@
 import fs from 'fs'
 
-export function isFile(filepath: string) {
+export const isFile = (filepath: string) => {
   try {
     return fs.statSync(filepath).isFile()
   } catch (e) {
