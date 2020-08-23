@@ -1,18 +1,9 @@
 module.exports = {
-  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier'],
-  plugins: ['react-hooks'],
+  extends: ['eslint:recommended', 'prettier'],
   parser: 'babel-eslint',
   parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
     ecmaVersion: 2017,
     sourceType: 'module',
-  },
-  settings: {
-    react: {
-      version: 'detect',
-    },
   },
   rules: {
     indent: [2, 2, { SwitchCase: 1 }],
@@ -41,11 +32,6 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
-
-    // React
-    'react/prop-types': 0,
-    'react-hooks/rules-of-hooks': 2,
-    'react-hooks/exhaustive-deps': 2,
   },
   overrides: [
     {

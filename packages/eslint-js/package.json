@@ -13,10 +13,6 @@
   ],
   "author": "Eric Biewener",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ericbiewener/eslint/issues"
-  },
-  "homepage": "https://github.com/ericbiewener/eslint#readme",
   "peerDependencies": {
     "babel-eslint": "*",
     "eslint": "*",

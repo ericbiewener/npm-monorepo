@@ -1,12 +1,12 @@
 {
-  "name": "@ericbiewener/eslint-config-typescript",
+  "name": "@ericbiewener/eslint-config-typescript-react",
   "version": "1.0.5",
-  "description": "Personal ESLint config for Typescript projects",
+  "description": "Personal ESLint config for Typescript React projects",
   "publishConfig": {
     "access": "public"
   },
   "main": "index.js",
-  "repository": "https://github.com/ericbiewener/npm-monorepo/packages/eslint-ts",
+  "repository": "https://github.com/ericbiewener/npm-monorepo/packages/eslint-ts-react",
   "keywords": [
     "eslint",
     "eslintconfig",
