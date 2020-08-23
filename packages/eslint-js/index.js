@@ -13,7 +13,16 @@ module.exports = {
     'no-console': 0,
     'prefer-const': 2,
     'object-curly-spacing': [2, 'always'],
-    'comma-dangle': [2, 'always-multiline'],
+    'comma-dangle': [
+      2,
+      {
+        arrays: 'always-multiline',
+        objects: 'always-multiline',
+        imports: 'always-multiline',
+        exports: 'always-multiline',
+        functions: 'never',
+      },
+    ],
     'no-cond-assign': 0,
     'no-throw-literal': 2,
     'no-unused-vars': [2, { ignoreRestSiblings: true }],
