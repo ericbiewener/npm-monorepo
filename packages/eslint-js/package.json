@@ -16,9 +16,7 @@
   "peerDependencies": {
     "babel-eslint": "*",
     "eslint": "*",
-    "eslint-config-prettier": "*",
-    "eslint-plugin-react": "*",
-    "eslint-plugin-react-hooks": "*"
+    "eslint-config-prettier": "*"
   },
   "gitHead": "e48f22bafc2f257dbc4fa13c50fdc931252dbc52"
 }

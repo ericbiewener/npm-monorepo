@@ -18,5 +18,9 @@
   "license": "ISC",
   "dependencies": {
     "@ericbiewener/eslint-config-typescript": "^2.0.0"
+  },
+  "peerDependencies": {
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*"
   }
 }
