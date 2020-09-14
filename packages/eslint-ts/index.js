@@ -40,6 +40,7 @@ module.exports = {
         'no-unused-expressions': 0,
         '@typescript-eslint/no-unused-expressions': 2,
         '@typescript-eslint/ban-ts-comment': 0,
+        '@typescript-eslint/camelcase': 0,
       },
     },
     {
