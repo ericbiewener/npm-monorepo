@@ -41,7 +41,6 @@
     "prepublish": "yarn build",
     "build": "rm -rf dist && tsc --project tsconfig.build.json",
     "lint": "eslint --fix --ext .ts,.tsx,.js src",
-    "test:unique": "ts-node test/index.ts",
     "tsc": "tsc",
     "tscw": "yarn tsc --watch"
   },

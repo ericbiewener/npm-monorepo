@@ -18,9 +18,6 @@
     "prepublish": "yarn build",
     "build": "rm -rf dist && tsc --project tsconfig.build.json",
     "lint": "eslint --fix --ext .ts,.tsx,.js src",
-    "test": "jest",
-    "test:watch": "yarn run test --watch",
-    "tw": "yarn run test:watch",
     "tsc": "tsc",
     "tscw": "yarn tsc --watch"
   },
@@ -33,7 +30,6 @@
   },
   "gitHead": "e48f22bafc2f257dbc4fa13c50fdc931252dbc52",
   "devDependencies": {
-    "@types/jest": "26.0.8",
     "eslint": "7.6.0",
     "typescript": "3.9.7"
   }
