@@ -1,4 +1,4 @@
-import { spliceIndeces } from '../spliceBetween'
+import { spliceIndeces } from '../spliceIndeces'
 
 test('spliceIndeces', async () => {
   const a = [0, 1, 2, 3, 4]
