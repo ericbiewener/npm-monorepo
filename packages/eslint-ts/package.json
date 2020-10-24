@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/eslint-config-typescript",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Personal ESLint config for Typescript projects",
   "publishConfig": {
     "access": "public"
