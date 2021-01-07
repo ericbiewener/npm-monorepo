@@ -52,9 +52,5 @@ module.exports = {
         'max-nested-callbacks': 0,
       },
     },
-    {
-      files: ['**/webpack.config.js'],
-      env: { browser: false, node: true },
-    },
   ],
 }
