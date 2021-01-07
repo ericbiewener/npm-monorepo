@@ -43,7 +43,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.test.{js,jsx,ts,tsx}', '**/testUtils.{js,jsx,ts,tsx}'],
+      files: ['**/*.test.{js,jsx}', '**/testUtils.{js,jsx}'],
       env: {
         jest: true,
       },
@@ -51,6 +51,10 @@ module.exports = {
         'no-empty': 0,
         'max-nested-callbacks': 0,
       },
+    },
+    {
+      files: ['**/webpack.config.js'],
+      env: { browser: false, node: true },
     },
   ],
 }

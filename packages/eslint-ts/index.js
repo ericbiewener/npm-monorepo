@@ -53,9 +53,5 @@ module.exports = {
         '@typescript-eslint/no-object-literal-type-assertion': 0,
       },
     },
-    {
-      files: ['**/webpack.config.js'],
-      env: { browser: false, node: true },
-    },
   ],
 }
