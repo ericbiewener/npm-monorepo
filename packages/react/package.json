@@ -1,6 +1,6 @@
 {
   "name": "@ericbiewener/react",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "description": "React stuff.",
   "publishConfig": {
     "access": "public"
