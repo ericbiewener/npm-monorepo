@@ -26,7 +26,7 @@
     "react": "16.x - 17.x",
     "react-hook-form": "^6.3.2"
   },
-  "gitHead": "bf7fe6f4f8994442bcc0fac557a3014a9d4d666e",
+  "gitHead": "926acba6901775ee5531961cdff77bee53006673",
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@types/react": "16.9.46",
