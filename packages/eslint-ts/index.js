@@ -23,6 +23,7 @@ module.exports = {
         'require-array-sort-compare': 0,
         '@typescript-eslint/no-explicit-any': 0,
         'no-unused-vars': 0,
+        '@typescript-eslint/no-unused-vars': 0,
         '@typescript-eslint/no-unused-vars-experimental': [
           'error',
           { ignoreArgsIfArgsAfterAreUsed: true },
