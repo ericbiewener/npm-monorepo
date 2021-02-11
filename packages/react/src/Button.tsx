@@ -1,5 +1,5 @@
 import React from 'react'
-import { HtmlButtonProps } from './types'
+import { HtmlButtonProps, OnButtonMouseEvent } from './types'
 import { cxp } from './utils/cxp'
 
 export type ButtonProps = HtmlButtonProps & {
@@ -23,7 +23,10 @@ export const Button: React.FC<ButtonProps> = ({ disabled, primary, text, fab, ..
   />
 )
 
-export const LoadingButton: React.FC<ButtonProps> = ({ onClick, ...props }) => {
+export const LoadingButton: React.FC<ButtonProps & { onClick: OnButtonMouseEvent }> = ({
+  onClick,
+  ...props
+}) => {
   const [isLoading, setIsLoading] = React.useState(false)
 
   return (
