@@ -6,9 +6,7 @@ export type HtmlTdProps = React.HTMLProps<HTMLTableDataCellElement>
 export type HtmlThProps = React.HTMLProps<HTMLTableHeaderCellElement>
 export type HtmlAnchorProps = React.HTMLProps<HTMLAnchorElement>
 // Using React.HTMLProps<HTMLButtonElement> results in an error on the button `type` property
-export type HtmlButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  onClick: OnButtonMouseEvent
-}
+export type HtmlButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement>
 export type HtmlInputProps = React.HTMLProps<HTMLInputElement> & { name: string }
 export type HtmlTextAreaProps = React.HTMLProps<HTMLTextAreaElement> & { name: string }
 export type HtmlFormProps = React.HTMLProps<HTMLFormElement>
